@@ -7,8 +7,14 @@ import ConditionalRendaring from './components/ConditionalRendaring'
 import SwitchRendering from './components/SwitchRendering'
 import TernaryOperator from './components/TernaryOperator'
 import Passingprops from './components/Passingprops'
+import PropsObject from './components/PropsObject'
 
 function App() {
+  let Obj ={
+    name:"Saif",
+    ID:41220300379,
+    city:"Dhaka"
+  }
   return (
     <div>
      <Ifelse/>
@@ -19,6 +25,7 @@ function App() {
      <SwitchRendering/>
      <TernaryOperator/>
      <Passingprops title="Hi there Saif"/>
+     <PropsObject item={Obj}/>
      
     </div>
   )
