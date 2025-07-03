@@ -3,6 +3,7 @@ import Ifelse from './components/Ifelse'
 import Anymious from './components/Anymious'
 import Map from './components/Map'
 import MapP from './components/MapP'
+import ConditionalRendaring from './components/ConditionalRendaring'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
      <Anymious/>
      <Map/>
      <MapP/>
+     <ConditionalRendaring/>
     </div>
   )
 }
