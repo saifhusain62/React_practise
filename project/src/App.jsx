@@ -5,6 +5,8 @@ import Map from './components/Map'
 import MapP from './components/MapP'
 import ConditionalRendaring from './components/ConditionalRendaring'
 import SwitchRendering from './components/SwitchRendering'
+import TernaryOperator from './components/TernaryOperator'
+import Passingprops from './components/Passingprops'
 
 function App() {
   return (
@@ -15,6 +17,9 @@ function App() {
      <MapP/>
      <ConditionalRendaring/>
      <SwitchRendering/>
+     <TernaryOperator/>
+     <Passingprops title="Hi there Saif"/>
+     
     </div>
   )
 }
