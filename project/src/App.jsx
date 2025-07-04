@@ -9,6 +9,7 @@ import TernaryOperator from './components/TernaryOperator'
 import Passingprops from './components/Passingprops'
 import PropsObject from './components/PropsObject'
 import BtnProps from './components/BtnProps'
+import Formsubmitted from './components/Formsubmitted'
 
 function App() {
   let Obj ={
@@ -32,6 +33,7 @@ function App() {
      <Passingprops title="Hi there Saif"/>
      <PropsObject item={Obj}/>
      <BtnProps Click={btnclick}/>
+     <Formsubmitted/>
      
     </div>
   )
