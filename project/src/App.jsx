@@ -11,6 +11,7 @@ import PropsObject from './components/PropsObject'
 import BtnProps from './components/BtnProps'
 import Formsubmitted from './components/Formsubmitted'
 import UseRef from './components/UseRef'
+import Multipleref from './components/Multipleref'
 
 function App() {
   let Obj ={
@@ -36,6 +37,7 @@ function App() {
      <BtnProps Click={btnclick}/>
      <Formsubmitted/>
      <UseRef/>
+     <Multipleref/>
      
     </div>
   )
