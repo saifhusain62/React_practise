@@ -12,6 +12,7 @@ import BtnProps from './components/BtnProps'
 import Formsubmitted from './components/Formsubmitted'
 import UseRef from './components/UseRef'
 import Multipleref from './components/Multipleref'
+import Refuseclasscng from './components/Refuseclasscng'
 
 function App() {
   let Obj ={
@@ -38,6 +39,7 @@ function App() {
      <Formsubmitted/>
      <UseRef/>
      <Multipleref/>
+     <Refuseclasscng/>
      
     </div>
   )
