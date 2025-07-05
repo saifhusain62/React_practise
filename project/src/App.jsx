@@ -10,6 +10,7 @@ import Passingprops from './components/Passingprops'
 import PropsObject from './components/PropsObject'
 import BtnProps from './components/BtnProps'
 import Formsubmitted from './components/Formsubmitted'
+import UseRef from './components/UseRef'
 
 function App() {
   let Obj ={
@@ -34,6 +35,7 @@ function App() {
      <PropsObject item={Obj}/>
      <BtnProps Click={btnclick}/>
      <Formsubmitted/>
+     <UseRef/>
      
     </div>
   )
