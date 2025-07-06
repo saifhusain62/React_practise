@@ -13,6 +13,7 @@ import Formsubmitted from './components/Formsubmitted'
 import UseRef from './components/UseRef'
 import Multipleref from './components/Multipleref'
 import Refuseclasscng from './components/Refuseclasscng'
+import Usestate1 from './components/Usestate1'
 
 function App() {
   let Obj ={
@@ -40,6 +41,7 @@ function App() {
      <UseRef/>
      <Multipleref/>
      <Refuseclasscng/>
+     <Usestate1/>
      
     </div>
   )
